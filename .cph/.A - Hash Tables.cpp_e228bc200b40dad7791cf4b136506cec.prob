@@ -1,0 +1,1 @@
+{"name":"Local: A - Hash Tables","url":"c:\\Users\\HP\\OneDrive\\Desktop\\Marathon contest\\A - Hash Tables.cpp","tests":[{"id":1683380817379,"input":"29\n33\n0","output":"59\n67 (33 is not prime)"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\HP\\OneDrive\\Desktop\\Marathon contest\\A - Hash Tables.cpp","group":"local","local":true}
