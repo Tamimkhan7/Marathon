@@ -5,25 +5,18 @@ int main()
     string s;
     cin >> s;
     int len = s.size();
-    int c = 0, k;
+    int c = 0;
     for (int i = 0; i < len; i++)
     {
-        if (s[i] == s[i + 1])
+        if ((s[0] == s[1] && s[1] == s[2]) || (s[1] == s[2] && s[2] == s[3]))
         {
-            c++;
-            if (c == 2)
-            {
-                k = c;
-                c = 0;
-            }
-            else
-            {
-                continue;
-            }
+            cout << "Yes" << endl;
+            break;
+        }
+        else
+        {
+            cout << "No" << endl;
+            break;
         }
     }
-    if (k == 2)
-        cout << "Yes" << endl;
-    else
-        cout << "No" << endl;
 }
